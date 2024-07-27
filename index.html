@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>My Portfolio</h1>
+                <button id="theme-toggle" class="theme-btn">🌙</button>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">☰</button>
+                <ul id="nav-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <h2>Welcome to My Portfolio</h2>
+            <h1>Hi, My name is Vishal Singh</h1>
+            <p>CSE final year student | Web Developer | Java | DSA in Java | MySQL | B.Tech, BBDU | Computer Science & Engineering</p>
+            <a href="./Resume.pdf" class="btn">Resume</a>
+            <a href="https://github.com/assistantsir2555" class="btn">Github</a>
+            <a href="mailto:your.vishal252004singh@gmail.com" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer passionate about building elegant and functional websites. I'm a full-stack Software Engineer currently in my final year of B.Tech at BBD University, Lucknow, in the CSE batch of 2021. I am very passionate about tech and share useful content based on my skills and learning to benefit others.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>C</h3>
+                <img src="./icons/c.png" alt="icons" class="">
+                <p>Proficient in C for writing expressive, readable, and efficient code.</p>
+            </div>
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <img src="./icons/HTML CSS.jpg" alt="icons" class="html">
+                <p>Proficient in building responsive and modern websites.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <img src="./icons/js.png" alt="icons" class="">
+                <p>Experienced in creating dynamic and interactive web applications.</p>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <img src="./icons/java.png" alt="icons" class="icons">
+                <p>Skilled in building complex user interfaces and applications with Java.</p>
+            </div>
+            <div class="skill">
+                <h3>MySQL</h3>
+                <img src="./icons/My SQL.png" alt="icons" class="">
+                <p>Knowledgeable in running queries and managing databases with MySQL.</p>
+            </div>
+            <div class="skill">
+                <h3>DSA</h3>
+                <img src="./icons/DSA.png" alt="icons" class="">
+                <p>Using data structures and algorithms to find efficient ways to solve problems and store data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <!-- <img src="project1.jpg" alt="Project 1"> -->
+                <h3>Age Calculator</h3>
+                <p>A user-friendly web application that calculates age based on a given birthdate. It provides precise age in years, months, and days, accounting for leap years and varying month lengths. Built with HTML, CSS, and JavaScript, it’s perfect for quickly determining age for personal or eligibility purposes.</p>
+            </div>
+            <div class="project">
+                <!-- <img src="project2.jpg" alt="Project 2"> -->
+                <h3>Bank Management System</h3>
+                <p>A robust Java-based application designed for managing banking operations. It allows users to perform transactions such as deposits, withdrawals, and balance checks. Features include account creation, transaction history, and account management with secure data handling. Developed using Java, it utilizes object-oriented principles and file handling for persistent data storage.</p>
+            </div>
+            <div class="project">
+                <!-- <img src="project2.jpg" alt="Project 2"> -->
+                <h3>Weather App</h3>
+                <p>A dynamic web application that provides real-time weather updates based on user location or input city. Users can view current conditions, temperature, and forecasts with a sleek, intuitive interface. Developed using HTML, CSS, and JavaScript, and powered by a weather API, it offers accurate and up-to-date weather information for any location.</p>
+            </div>
+            <div class="project">
+                <!-- <img src="project2.jpg" alt="Project 2"> -->
+                <h3>Hospital Management System</h3>
+                <p>A comprehensive Java-based application designed to streamline hospital operations. It manages patient records, doctor appointments, and medical billing efficiently. Key features include patient registration, appointment scheduling, and treatment history management. Built using Java, it leverages object-oriented principles and data persistence to enhance hospital administration and patient care.</p>
+            </div>
+            <div class="project">
+                <!-- <img src="project2.jpg" alt="Project 2"> -->
+                <h3>Digital Clock</h3>
+                <p>A sleek and responsive digital clock web application that displays the current time in hours, minutes, and seconds. Developed with HTML for structure, CSS for styling, and JavaScript for real-time functionality, it offers an intuitive and modern interface. The clock updates in real-time and adjusts to user’s local time zone, providing an elegant and practical timekeeping solution.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vishal Singh. My Portfolio</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/vishal-singh-584218256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BS%2Fq9u3SXSv65cyqhYNhc6A%3D%3D" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/i__vishalsingh__/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100089719921337" target="_blank">Facebook</a>
+                <a href="https://x.com/S66609352Vishal?t=RZsSCeZPl6rcpUH6PLXl5A&s=08" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
